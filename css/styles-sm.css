@@ -1,0 +1,19 @@
+@media (min-width: 576px) {
+    nav {
+        position: fixed;
+        top: auto;
+    }
+
+    .font-size-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .font-size-subtitle {
+        font-size: 1.4rem;
+    }
+
+    .bi-location {
+        font-size: 1.6em;
+    }
+}
