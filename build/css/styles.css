@@ -1,0 +1,64 @@
+input:hover {
+    cursor: default;
+}
+
+textarea:hover {
+    cursor: default;
+}
+
+.dropdown-menu-bg {
+    background-color: black;
+}
+
+.dropdown-item-font {
+    color: whitesmoke;
+}
+
+.btn-lg {
+    font-size: 1rem;
+    background-color: black;
+}
+
+.lg-img {
+    height: 20px;
+    width: 20px;
+}
+
+.font-size-title {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.font-size-subtitle {
+    font-size: 1.3rem;
+}
+
+.bi-location {
+    font-size: 1.5em;
+}
+
+.form-field {
+    font-size: 1rem;
+}
+
+.icon-img {
+    height: 80px;
+    width: 80px;
+}
+
+.icon-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.user-img {
+    height: 150px;
+    width: 150px;
+}
+
+.user-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

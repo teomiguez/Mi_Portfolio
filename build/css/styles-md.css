@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+    .font-size-title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .font-size-subtitle {
+        font-size: 1.8rem;
+    }
+
+    .bi-location {
+        font-size: 1.8em;
+    }
+
+    .user-img {
+        height: 150px;
+        width: 150px;
+    }
+}

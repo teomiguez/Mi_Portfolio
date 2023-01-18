@@ -1,0 +1,48 @@
+@media (max-width: 575px) {
+    .font-size-title {
+        font-size: 0.6rem;
+        text-align: center;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .font-size-subtitle {
+        font-size: 0.5rem;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .bi-location {
+        font-size: 0.5em;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .section-title {
+        font-size: 0.8rem;
+    }
+
+    .section-sub-title {
+        font-size: 0.6rem;
+    }
+
+    .section-text {
+        font-size: 0.6rem;
+    }
+
+    .form-field {
+        font-size: 0.8rem;
+    }
+
+    .icon-img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .user-img {
+        height: 60px;
+        width: 60px;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+    }
+}

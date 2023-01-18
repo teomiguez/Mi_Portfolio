@@ -1,0 +1,14 @@
+@media (min-width: 417px) {
+    .font-size-title {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .font-size-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .bi-location {
+        font-size: 0.8em;
+    }
+}
