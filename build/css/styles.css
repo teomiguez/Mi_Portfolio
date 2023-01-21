@@ -33,6 +33,10 @@ textarea:hover {
     font-size: 1.3rem;
 }
 
+.section-text {
+    text-align: justify;
+}
+
 .bi-location {
     font-size: 1.5em;
 }
