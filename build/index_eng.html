@@ -324,7 +324,9 @@
                                         <label for="email" aria-required="true" class="form-label"> Email*
                                         </label>
                                         <input id="email" name="email" type="email" class="form-control section-text"
-                                            placeholder="example@email.com" required>
+                                            placeholder="example@email.com"
+                                            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+                                            title="Enter a valid email" required>
                                     </div>
 
                                     <div class="my-3 text-start form-field">

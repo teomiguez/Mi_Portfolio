@@ -326,7 +326,9 @@
                                         <label for="email" aria-required="true" class="form-label"> Correo electronico*
                                         </label>
                                         <input id="email" name="email" type="email" class="form-control section-text"
-                                            placeholder="ejemplo@mail.com" required />
+                                            placeholder="ejemplo@mail.com"
+                                            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+                                            title="Ingresa un email valido" required />
                                         <div class="invalid-feedback">
                                             Error!
                                         </div>
