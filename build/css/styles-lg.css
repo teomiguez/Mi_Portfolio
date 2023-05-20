@@ -32,7 +32,8 @@
     }
 
     .user-img {
-        height: 300px;
+        clip-path: circle();
+        height: 400px;
         width: 300px;
     }
 }

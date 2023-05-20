@@ -106,8 +106,8 @@
             <img src="images/bg-code.png" alt="" class="img-fluid">
             <div class="position-absolute top-50 start-50 translate-middle text-white-50 px-2 py-1">
                 <div class="text-center font-monospace">
-                    <img class="user-img" src="images/user.png" alt="img-fluid">
-                    <h1 class="mt-3 me-5 font-size-title ps-5">Teo Miguez</h1>
+                    <img class="user-img" src="images/photo.png" alt="photo">
+                    <h1 class="mt-3 me-5 font-size-title ps-5">Teo Miguez De Araujo</h1>
                     <div class="align-middle">
                         <i class="bi-location bi bi-geo-alt d-inline"></i>
                         <h2 class="font-size-subtitle d-inline"> Mar del Plata, Arg. </h2>
@@ -130,7 +130,7 @@
                             </h2>
                             <div class="fs-6 pb-3 px-3">
                                 <p class="section-text px-2">
-                                    Hi! My name is Teo Miguez, I am 20 years old and I am a student of the University
+                                    Hi! My name is Teo, I am 20 years old and I am a student of the University
                                     Technician in Programming of the National
                                     Technological University - Mar del Plata. I seek to strengthen and expand my
                                     knowledge and skills by inserting
@@ -203,7 +203,7 @@
                                         <div id="flush-collapseOne" class="accordion-collapse collapse"
                                             aria-labelledby="flush-headingOne" data-bs-parent="#accordionProyects">
                                             <div class="accordion-body section-text">
-                                                Classic multi-page application (MPA) with static information, in this
+                                                Classic multi-page application with static information, in this
                                                 case about the Argentine soccer team and the three
                                                 world cups they won.
                                                 <p class="section-text text-center pt-1">
@@ -253,10 +253,11 @@
                                         <div id="flush-collapseFour" class="accordion-collapse collapse"
                                             aria-labelledby="flush-headingFour" data-bs-parent="#accordionProyects">
                                             <div class="accordion-body section-text">
-                                                Web application (SPA) that simulates a shopping list, in this case
+                                                Web application that simulates a shopping list, in this case
                                                 limited to six (6) products. Using JavaScript, as a
                                                 product is "added" or "removed" the quantity, price of the product and
-                                                total value (updating) are displayed.
+                                                total value (updating) are displayed. Finally, you can cancel the order
+                                                or simulate the payment.
                                                 <p class="section-text text-center pt-1">
                                                     <a href="https://teomiguez-carritofrutas.netlify.app/">
                                                         see page
@@ -310,19 +311,32 @@
                                 Contact form
                             </h2>
 
+                            <div class="ms-5 mt-3 text-start">
+                                <div class="d-inline-flex">
+                                    <p> Required fields ( </p>
+                                    <p class="text-danger"> * </p>
+                                    <p> ) </p>
+                                </div>
+                            </div>
+
                             <form id="form">
                                 <div class="mx-5">
                                     <input type="hidden" name="language" value="Ingles" />
 
                                     <div class="my-3 text-start form-field">
-                                        <label for="name" class="form-label"> Name* </label>
+                                        <div class="d-inline-flex">
+                                            <label for="name" class="form-label"> Name </label>
+                                            <p class="ps-1 text-danger"> * </p>
+                                        </div>
                                         <input id="name" name="name" type="text" class="form-control section-text"
                                             required>
                                     </div>
 
                                     <div class="my-3 text-start form-field">
-                                        <label for="email" aria-required="true" class="form-label"> Email*
-                                        </label>
+                                        <div class="d-inline-flex">
+                                            <label for="email" aria-required="true" class="form-label"> Email </label>
+                                            <p class="ps-1 text-danger"> * </p>
+                                        </div>
                                         <input id="email" name="email" type="email" class="form-control section-text"
                                             placeholder="example@email.com"
                                             pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
@@ -330,13 +344,19 @@
                                     </div>
 
                                     <div class="my-3 text-start form-field">
-                                        <label for="subject" class="form-label"> Subject* </label>
+                                        <div class="d-inline-flex">
+                                            <label for="subject" class="form-label"> Subject </label>
+                                            <p class="ps-1 text-danger"> * </p>
+                                        </div>
                                         <input id="subject" name="subject" type="text" class="form-control section-text"
                                             required>
                                     </div>
 
                                     <div class="my-3 text-start form-field">
-                                        <label for="message" class="form-label"> Message* </label>
+                                        <div class="d-inline-flex">
+                                            <label for="message" class="form-label"> Message </label>
+                                            <p class="ps-1 text-danger"> * </p>
+                                        </div>
                                         <textarea id="message" name="message" class="form-control section-text"
                                             cols="30" rows="10" required></textarea>
                                     </div>
